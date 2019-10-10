@@ -1,0 +1,19 @@
+/* Body css */
+.body{
+  margin-left: 15%;
+}
+
+.button{background-color: #008CBA;} /* Blue */
+.red {background-color: #f44336;} /* Red */ 
+.green {background-color: #4CAF50;} /* Green */
+
+
+
+.form-control[type=text]
+{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
