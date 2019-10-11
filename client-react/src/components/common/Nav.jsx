@@ -8,8 +8,9 @@ class Nav extends Component {
            <div>
                <div class="sidenav">
     <ul>
-        <li><h1>Project</h1></li>
+        
         <ul>
+        <li><h1>Project</h1></li>
          <li> <a href="/AddProject">Create Project</a></li>
          <li> <a href="/">List Project</a></li>
          </ul>

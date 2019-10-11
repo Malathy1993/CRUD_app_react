@@ -108,7 +108,7 @@ class AddProject extends Component {
                 placeholder="Project Name Here"
               />
             </fieldset>
-            <fieldset className="form-group">
+            {/* <fieldset className="form-group">
               <label> Project Description</label>
               <Field
                 className="form-control"
@@ -117,6 +117,18 @@ class AddProject extends Component {
                 value={this.state.txtprojectdesc}
                 onChange={this.handleChangedesc}
                 placeholder="Project Desc Here"
+              />
+             </fieldset> */}
+            <fieldset className="form-group">
+            <label> Project Description</label>
+            <textarea 
+            className="form-control" 
+            name="txtprojectdesc"
+            rows="5"
+            cols = "600"
+            value={this.state.txtprojectdesc}
+            onChange={this.handleChangedesc}
+            placeholder="Project Desc Here"
               />
             </fieldset>           
             <button

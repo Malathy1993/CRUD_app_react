@@ -5,8 +5,12 @@ class Header extends Component {
     render() { 
         return ( 
             <div className="header">
-             <a href="">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;
-             <a href="/"> Menu</a>
+             <ul>
+            <li><a class="active" href="/">Home</a></li>
+            <li><a href="/AddProject">Add</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">About</a></li>
+            </ul>
             </div>
          );
     }

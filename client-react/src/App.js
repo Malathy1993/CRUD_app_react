@@ -12,21 +12,34 @@ import EditProject from './components/Projects/EdiProject';
 
 
 function App() {
-    return ( 
-        <div >
-            <Header/>
-            <Nav/>
-            <BrowserRouter>
-            <Switch>
-          <Route path="/" exact component={ListProject} />
-          <Route path="/AddProject" exact component={AddProject} />
-          <Route path="/EditProject/:id" exact component={EditProject} />
-          <Route path="/BackProjectList" exact component={ListProject} />
-        </Switch>
-            
-            </BrowserRouter>
-            {/* <Projectindex/> */}
-        </div>
+    return ( <
+        div >
+        <
+        Header / >
+        <
+        Nav / >
+        <
+        BrowserRouter >
+        <
+        Switch >
+        <
+        Route path = "/"
+        exact component = { ListProject }
+        /> <
+        Route path = "/AddProject"
+        exact component = { AddProject }
+        /> <
+        Route path = "/EditProject/:id"
+        exact component = { EditProject }
+        /> <
+        Route path = "/BackProjectList"
+        exact component = { ListProject }
+        /> <
+        /Switch>
+
+        <
+        /BrowserRouter> { /* <Projectindex/> */ } <
+        /div>
     );
 }
 
